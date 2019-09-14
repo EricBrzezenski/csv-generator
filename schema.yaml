@@ -1,0 +1,13 @@
+columns:
+  - name: 'id'
+    type: 'guid'
+  - name: 'product'
+    type: 'string'
+  - name: launchDate
+    type: 'datetime'
+    repeated: 5
+  - name: cost
+    type: 'float'
+    precision: 2
+    min: 4
+    max: 250
